@@ -1,0 +1,31 @@
+.navbar{
+
+    border-bottom: 2px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lunabrand {
+
+    color: white;
+    background-color: #4aaaa5;
+}
+
+
+body{
+    background-image: url("../interlaced.png");
+}
+
+.main{
+
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+#lunapic {
+
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}

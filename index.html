@@ -1,0 +1,101 @@
+<!-- Demo Layout for Bootstrap (with cards) -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Luna website</title>
+
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- still need css file to override Bootstrap defaults -->
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- NavBar (copied and pasted from WC3) -->
+  <!-- Static navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand lunabrand" href="#">Luna</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Body goes in Container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 main">
+        <h1>About me</h1>
+        <hr />
+        <img id="lunapic" src="../hw2/assets/luna.jpg">
+   
+        <h2>Luna History</h2>
+        <p>My name is Luna and I am a German Sheperd mix. I was born in the Bakersfield/Fresno area but then my sister
+          and I were
+          brought up to the Bay Area and stayed at the Family Dog Rescue Shelter. We were there a couple of weeks before
+          we
+          were let out to meet people.</p>
+        <p>
+          Within the first week of being able to see people, a nice family of three young people came in and picked
+          myself
+          and my sister as pets they thought they might want. We were still tired from our traveling so we did not do
+          much, but the family liked how mellow we were. They wanted to take my sister and I together but the shelter
+          would
+          not let them take both of us.
+
+        </p>
+        <p>
+          So, off I went, with my new family. Now I am almost one year old and I am having a great time. I love being
+          outside,
+          running around, playing fetch, biting whatever I can get my teeth on and getting my belly rubbed.
+        </p>
+
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- The content in this div gets wrapped in a card -->
+        <div class="card">
+          <div class="card-body">
+            <div class="text-center">
+              <img class="" src="http://placehold.it/50x50" alt="">
+              <img class="" src="http://placehold.it/50x50" alt="">
+              <img class="" src="http://placehold.it/50x50" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
