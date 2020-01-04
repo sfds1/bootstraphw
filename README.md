@@ -2,7 +2,7 @@
 
 ## Description 
 
-Now editing the html pages using Bootstrap.
+Now editing the html pages using Bootstrap. This seems like it should be easier than coding it with HTML and CSS alone as many things are already "set" with Bootstrap.  There is still a lot of things that need to be researhed though as there are a LOT of things Bootstrap can do.
 
 
 ## Installation

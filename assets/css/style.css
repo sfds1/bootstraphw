@@ -4,8 +4,24 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.lunabrand {
+/* About, Portfolio, Contact styling */
 
+#navbarLinks{
+
+    color: #777777;
+    border-right: 1px solid #777777 ;
+    
+}
+
+
+/*  How to make the green color be the same as the navbar height? */
+
+.h1 {
+
+    width: 300px;
+    font-size: 24pt;
+    font-weight:bold;
+    text-align: center;
     color: white;
     background-color: #4aaaa5;
 }
@@ -19,13 +35,20 @@ body{
 
     background-color: white;
     margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
-
+h2{
+    margin: 20px 20px 20px 5px;  
+    font-size: 24pt;
+    font-weight:bold;
+    color: #4aaaa5;
+}
 #lunapic {
 
     width: 200px;
     height: 250px;
     float: left;
-    margin: 0px 20px 20px 0px;
+    margin: 0px 20px 20px 5px;
 }
