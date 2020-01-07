@@ -6,6 +6,8 @@
 
 /* About, Portfolio, Contact styling */
 
+/* ??????? with this then the "Active" bootstrap does not work, right? */
+
 #navbarLinks{
 
     color: #777777;
@@ -14,11 +16,13 @@
 }
 
 
-/*  How to make the green color be the same as the navbar height? */
+/*  ?????????  How to make the green color be the same as the navbar height? */
 
 .h1 {
 
     width: 300px;
+    margin: 0px;
+    padding: 0px;
     font-size: 24pt;
     font-weight:bold;
     text-align: center;
@@ -51,4 +55,14 @@ h2{
     height: 250px;
     float: left;
     margin: 0px 20px 20px 5px;
+}
+
+footer{
+
+    height: 50px;
+  border-top: 8px solid #4aaaa5;
+  text-align: center;
+  padding: 5px;
+  background-color: #666666;
+
 }
