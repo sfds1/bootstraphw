@@ -69,15 +69,12 @@ h2{
     position: relative;
     margin: 30px auto;
     width: 250px;
-height: 200px;
-
-border: 1px solid #ccc; /* Gray border */
+    height: 200px;
+    border: 1px solid #ccc; /* Gray border */
 }
 
-
-
-    .thumbnail {
-        position: relative;
+.thumbnail {
+    position: relative;
     }
 
     /* styling for text over pictures */
