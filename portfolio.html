@@ -20,7 +20,7 @@
 
 
   <!-- Navbar -->
-  
+
   <nav class="navbar navbar-expand-sm bg-light">
 
     <!-- Navbar brand -->
@@ -29,8 +29,8 @@
     <!-- flex-column = centers information in the column -->
     <!-- flex-sm-row = tells when to move the line items to below the brand. without this the links will always be belwo the brand name -->
 
-    <div class="container navbar-expand flex-column flex-sm-row ">
-        <span class="navbar-brand mr-0 mr-md-2 h1">Luna</span>
+    <div class="container navbar-expand flex-column flex-md-row">
+        <a class="navbar-brand p-4 lunaHeading" href="index.html">Luna </a>
 
       <div class="navbar-nav-scroll" >
         <ul class="navbar-nav ml-auto flex-row">
@@ -49,20 +49,77 @@
   </nav>
 
   <!-- Main Body goes in Container -->
-  <div class="container">
+  <div class="container ">
 
     <br>
  <div class="row">
-      <div class="col-lg-12">
-        The content in this div gets wrapped in a card
-        <div class="card">
-          <div class="card-body">
-            <div class="text-center">
-              <img class="" src="http://placehold.it/50x50" alt="">
-              <img class="" src="http://placehold.it/50x50" alt="">
-              <img class="" src="http://placehold.it/50x50" alt="">
-            </div>
-          </div>
+      <div class="col-md-8 main">
+        <h2>Portfolio</h2>
+        <hr />
+
+        <!-- row 1 of images has 2 columns -->
+        <div class="row">
+            <div class="thumbnail col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid portfolioPic" src="./assets/doglogo.png" alt="">
+            
+                <div class="caption">
+
+                  <p>First Home</p>
+
+             </div>
+              </div>
+
+            <div class="thumbnail col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid portfolioPic" src="./assets/bone.png" alt="">
+                
+                <div class="caption">
+
+                  <p>I Love These</p>
+
+             </div>
+              </div>
+        </div>
+
+                <!-- row 2 of images has 2 columns -->
+        <div class="row">
+            <div class="thumbnail col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid portfolioPic" src="http://placehold.it/350x350" alt="">
+                <div class="caption">
+
+                  <p>Placeholder</p>
+
+             </div>
+            
+              </div>
+            <div class="thumbnail col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid portfolioPic" src="http://placehold.it/350x350" alt="">
+                
+                <div class="caption">
+
+                  <p>Placeholder</p>
+
+             </div>
+            
+            
+              </div>
+        </div>
+
+            
+                        <!-- row 3 of images has 1 column -->
+                        <div class="row">
+                            <div class="thumbnail col-sm-12 col-md-6 col-lg-6">
+                                <img class="img-fluid portfolioPic" src="http://placehold.it/350x350" alt="">
+                            
+                                <div class="caption">
+
+                                  <p>Placeholder</p>
+                
+                             </div>
+                            
+                            
+                              </div>
+
+                        </div>
         </div>
       </div>
     </div>

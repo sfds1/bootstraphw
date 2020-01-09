@@ -18,16 +18,16 @@
 
 <body>
 
-
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-sm bg-light">
+  <nav class="navbar navbar-expand flex-column flex-md-row" id="navbarLogoSM"> 
 
     <!-- Navbar brand -->
-    <div class="container">
-        <span class="navbar-brand mb-0 h1">Luna</span>
+    <div class="container navbar-expand flex-column flex-md-row">
+        <!-- <span class="navbar-brand h1">Luna</span> -->
+        <a class="navbar-brand p-4 lunaHeading" href="index.html">Luna </a>
 
-      <div class="collapse navbar-collapse d-sm-inline-flex" >
-        <ul class="navbar-nav ml-auto">
+      <div class="collapse navbar-collapse d-sm-inline-flex" id="navbarMenuSM">
+        <ul class="navbar-nav ml-auto" id="navUL">
           <li class="nav-item active">
             <a class="nav-link" id="navbarLinks" href="index.html">About </a>
           </li>
@@ -39,16 +39,16 @@
           </li>
         </ul>
       </div>
-    </div>
+    <!-- </div> -->
   </nav>
 
   <!-- Main Body goes in Container -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-9 main">
+      <div class="col-sm-12 col-md-8 col-lg-8 main">
         <h2>About Me</h2>
         <hr />
-        <img id="lunapic" src="../hw2/assets/luna.jpg">
+        <img class="img-fluid" id="lunapic" src="../hw2/assets/luna.jpg" alt="Responsive image">
    
         <h3>Luna History</h3>
         <p>My name is Luna and I am a German Sheperd mix. I was born in the Bakersfield/Fresno area but then my sister
@@ -89,7 +89,6 @@
       </div>
     </div> -->
   </div>
-
   <!-- sticky footer -->
   <footer class="footer mt-auto py-3">
     <div class="container">
