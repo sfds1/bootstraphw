@@ -19,19 +19,24 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand flex-column flex-md-row" id="navbarLogoSM"> 
+  
+  <nav class="navbar navbar-expand-sm bg-light">
 
     <!-- Navbar brand -->
+
+    <!-- navbar-expand -->
+    <!-- flex-column = centers information in the column -->
+    <!-- flex-sm-row = tells when to move the line items to below the brand. without this the links will always be belwo the brand name -->
+
     <div class="container navbar-expand flex-column flex-md-row">
-        <!-- <span class="navbar-brand h1">Luna</span> -->
         <a class="navbar-brand p-4 lunaHeading" href="index.html">Luna </a>
 
-      <div class="collapse navbar-collapse d-sm-inline-flex" id="navbarMenuSM">
-        <ul class="navbar-nav ml-auto" id="navUL">
-          <li class="nav-item active">
+      <div class="navbar-nav-scroll" >
+        <ul class="navbar-nav ml-auto flex-row">
+          <li class="nav-item">
             <a class="nav-link" id="navbarLinks" href="index.html">About </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" id="navbarLinks" href="portfolio.html">Portfolio </a>
           </li>
           <li class="nav-item">
@@ -39,7 +44,7 @@
           </li>
         </ul>
       </div>
-    <!-- </div> -->
+    </div>
   </nav>
 
   <!-- Main Body goes in Container -->
